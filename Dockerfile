@@ -4,6 +4,7 @@ RUN dnf update -y && \
     dnf install -y epel-release && \
     dnf clean all
 
+RUN dnf install -y wget
 RUN dnf install -y gcc-c++ 
 RUN dnf install -y gcc
 RUN dnf install -y make 
