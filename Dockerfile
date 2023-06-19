@@ -9,6 +9,7 @@ RUN dnf install -y gcc-c++
 RUN dnf install -y gcc
 RUN dnf install -y make 
 RUN dnf install -y zlib-devel 
+RUN dnf install -y boost-devel 
 
 RUN dnf clean all
 
